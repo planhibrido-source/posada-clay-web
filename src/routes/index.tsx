@@ -19,7 +19,7 @@ import {
   Waves,
   Wifi,
 } from "lucide-react";
-import heroImage from "../assets/posada-clay-hero.jpg";
+import heroImage from "../assets/posada-clay-hero.jpg.asset.json";
 
 const roomRates = [
   { room: "Individual", guests: "1 huésped", price: 25 },
@@ -121,7 +121,7 @@ function Index() {
       <section className="hero" aria-labelledby="hero-title">
         <img
           className="hero-image"
-          src={heroImage}
+          src={heroImage.url}
           alt="Representación artesanal en arcilla de la Posada Luz Caraballo frente a las montañas de Mérida"
           width={1536}
           height={1024}
