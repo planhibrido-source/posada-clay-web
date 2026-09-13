@@ -129,7 +129,7 @@ function Index() {
         <div className="hero-shade" />
         <div className="hero-copy">
           <p className="eyebrow"><Sparkles size={16} /> Recibiendo viajeros desde 1987</p>
-          <h1 id="hero-title">Un hogar merideño<br />en el corazón de la ciudad</h1>
+          <h1 id="hero-title">Hospedaje merideño<br />🚍</h1>
           <p className="hero-lead">
             Tradición, descanso y una atención cercana en el casco central de Mérida.
           </p>
